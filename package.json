@@ -1,0 +1,38 @@
+{
+  "name": "@fijiwebdesign/mail-mqtt",
+  "version": "1.0.0",
+  "description": "MQTT Transport for IMAP server.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "start:client": "node client.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "style": "standard",
+    "lint": "eslint '**/*.{js,jsx}' --quiet",
+    "format": "prettier --write '**/*.{js,jsx}'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fijiwebdesign/mail-mqtt.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fijiwebdesign/mail-mqtt/issues"
+  },
+  "homepage": "https://github.com/fijiwebdesign/mail-mqtt#readme",
+  "dependencies": {
+    "mqtt": "^2.17.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.2",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0",
+    "prettier": "^1.12.0",
+    "standard": "^5.4.1"
+  }
+}
