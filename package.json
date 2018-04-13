@@ -1,5 +1,5 @@
 {
-  "name": "@fijiwebdesign/mail-mqtt",
+  "name": "@fijiwebdesign/mail-imap-mqtt",
   "version": "1.0.0",
   "description": "MQTT Transport for IMAP server.",
   "main": "server.js",
@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fijiwebdesign/mail-mqtt.git"
+    "url": "git+https://github.com/fijiwebdesign/mail-imap-mqtt.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/fijiwebdesign/mail-mqtt/issues"
+    "url": "https://github.com/fijiwebdesign/mail-imap-mqtt/issues"
   },
-  "homepage": "https://github.com/fijiwebdesign/mail-mqtt#readme",
+  "homepage": "https://github.com/fijiwebdesign/mail-imap-mqtt#readme",
   "dependencies": {
     "mqtt": "^2.17.0"
   },
